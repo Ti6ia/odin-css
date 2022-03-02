@@ -130,13 +130,14 @@ p{
     height: 400;
     justify-content: space-around;
     align-items: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 280px;
+    padding-right: 280px;
     display: flex;
 }
 
 .illustration_item{
     width: 158px;
+    padding-bottom: 80px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -153,4 +154,94 @@ p{
     text-align: center;
     padding-top: 5px;
     font-size: 17px;
+}
+
+
+/* QUOTE */
+
+.quote_container{
+    height: 430px;
+    padding-left: 280px;
+    padding-right: 280px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+#quote_txt{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#quote_author{
+    align-self: flex-end;
+    margin-right: 25px;
+    color: black;
+    font-size: 26px;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+/* CALL TO ACTION */
+
+.cta_container{
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.blue_box{
+    height: 150px;
+    width: 1500px;
+    border-radius: 10px;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;    
+    display: flex;
+}
+
+.cta_item{
+    height: 50px;
+}
+
+.cta_text{
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+.cta_button{
+    height: 30px; 
+    width: 120px;   
+    color: white;
+    border-radius: 7px;
+    border: 3px solid #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#cta_button{   
+    color: #F9FAF8;
+}
+
+#cta_txt_a{
+    font-weight: bold;
+    font-size: 23px;
+    color: #F9FAF8;
+}
+
+#cta_txt_b{
+    font-size: 18px;
+    color: #E5E7EB;
 }

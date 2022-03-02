@@ -245,3 +245,15 @@ p{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+
+/* FOOTER */
+
+.footer_container{
+    height: 100px;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    display: flex;
+}
